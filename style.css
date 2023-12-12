@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 25%;
+    min-height: 70vh;
+    background-color:rgb(44, 230, 237);     /*  height of the container   */
+    border-radius: 20px;
+    box-shadow: 10px 15px 35px  rgba(0,0,0,.4);
+}
+
+h4{
+    text-align: center;
+    font-size: 25px;
+    margin: 16px;
+}
+
+img{
+    width: 80%;
+    height: 50%;
+    margin: 10% 10% 5% 10%;
+    border-radius: 8px;
+    box-shadow: 10px 15px 25px rgba(0,0,0,.2);
+}
+
+p{
+    margin: 3px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+marquee{
+    width: 80%;
+    margin-left: 10%;
+    font-size: 18px;
+    letter-spacing: 1px; 
+}
+input{
+    width: 80% ;
+    margin: 2% 10%;
+}
+
+button{
+    padding: 15px;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 14%;
+    border-radius: 25%;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(60, 59, 59, 0.5),
+                -1px -1px 1px white;
+
+}
+
+button:hover{
+    box-shadow: inset 5px 5px 10px rgba(60, 59, 59, 0.2),
+                      1px 1px 1px white;
+}
+
+@media screen and (max-width:1200px){
+    .container{
+        width: 30%;
+    }
+    
+}
+
+@media screen and (max-width:576px){
+    .container{
+        width: 70%;
+    }
+    
+}
